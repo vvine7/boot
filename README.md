@@ -16,7 +16,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com/') # pegar o link do Site.
 time.sleep(28) #Tempo para scanear o celular no navegador.
 # Definir Contatos e grupos e mensagem a ser enviada.
-contatos = ['Jose Cadela', 'Sobbezinha', 'Antonio Flash']
+contatos = ['NOME DO CONTATO']
 mensagem = ["TESTANDO BOOT ZAP 123..."]
 
 def buscar_contato(contato):
